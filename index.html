@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify(Prova-1)</title>
+    <script src="https://kit.fontawesome.com/7d8c9004fe.js"crossorigin="anonymous"></script>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        nav ul, #bibli{
+            list-style: none;
+            display: list-item;
+            font-size: larger;
+        }
+
+        h3{
+            margin-left: 55px;
+            color: white
+        }
+
+        h4{
+            color: white;
+        }
+
+        main{
+            color: white;
+            display: flex;
+        }
+
+        main img{
+            height: 200px;
+            width: 200px;
+        }
+
+        .music{
+            border-radius: 20px;
+            padding: 10px;
+            border: 4px solid rgb(15, 15, 15);
+            margin: auto;
+            background-color: rgb(15, 15, 15);
+            text-align: center;
+            overflow: hidden;
+            height: 340px;
+            width: 200px;
+        }
+        
+        a{
+            font-family: Arial, Helvetica, sans-serif;
+            text-decoration:none ;
+            color: grey;
+        }
+        #Spotify{
+            padding-left: 40px;
+        }
+        
+        #container1{
+            background-color: rgb(8, 8, 8);
+
+        }
+
+        aside{
+            background-color: rgb(8, 8, 8);
+
+        }
+
+        #Spotify{
+            width: 100px;               
+        }
+        
+        #conteudo1{
+            padding-top: 20px;
+            border: 5px solid black;
+            width: 300px;
+        }
+
+        #conteudo2 ul li{
+            list-style: none;
+            color: grey;
+            display: inline;
+            font-size: small;
+        }
+
+        #conteudo2{
+            margin: auto;
+            border: 5px solid black;
+            height: 280px;
+            width: 300px;
+        }
+
+        #conteudo3{
+            border: 5px solid black;
+            height: 50px;
+            width: 1260px;
+            text-align: right;
+        }
+
+        #conteudo4{
+            background-color: rgb(19, 18, 18);
+            padding: 5px;
+            width: 1250px;
+        }
+        
+        i{
+            padding-right: 20px;
+        }
+
+        .sep{
+            margin-right: 15px;
+        }
+
+        #botaoE{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            background-color: white;
+            border-radius: 20px;
+            padding-right: 30px;
+            padding-left: 30px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin-right: 40px;
+            color: black;
+        }
+
+        #botaoI{
+            margin-right: 40px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        .sobre{
+            font-size: small;
+            font-family: Arial, Helvetica, sans-serif;
+            color: gray;
+        }
+
+        #containerTotal{
+            background-color: rgb(8, 8, 8);
+            display: flex;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="containerTotal">
+        
+
+        <div id="container2">
+            <aside id="conteudo1">
+                <div>
+                    <nav>
+                        <img src="spotify_logo.png" alt="logo do spotify" id="Spotify">
+                        <ul>
+                            <li><a href="#"><i class="fa-solid fa-house"></i>Início</a></li>
+                            <p></p>
+                            <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i>Buscar</a></li>
+                            <p></p>
+                            <li><a href="#"><i class="fa-solid fa-book"></i>Sua Biblioteca</a></li>
+                        </ul>
+                    </nav>
+                </div>  
+            </aside>       
+            <aside id="conteudo2">
+                
+                <ul>
+                    <li class="sep"><a href="#">Legal</a></li>
+                    <li><a href="#">Segurança e Centro de privacidade</a></li>
+                </ul>
+                <ul>
+                    <li class="sep"><a href="#">Política de privacidade</a></li>
+                    <li><a href="#">Cookies</a></li>
+                </ul>
+                <ul>
+                    <li class="sep"><a href="#">Sobre anúncios</a></li>
+                    <li><a href="#">Acessibilidade</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">Notice at Collection</a></li>
+                </ul>
+            </aside>
+        </div>
+
+        <div id="container1">
+            <div id="conteudo3">
+                <header>
+                    <p></p>
+                    <a href="#" id="botaoI">Inscrever-se</a>
+                    <a href="#" id="botaoE">Entrar</a>
+                </header>
+            </div>
+        
+            
+            <div id="conteudo4">
+                <h3>Playlists do Spotify</h3>
+                <main>
+                    <p></p>
+                    <div class="music">
+                        <a href="#">
+                            <img src="album1.png" alt="album1">
+                            <h4>Dinner with Friends</h4>
+                            <p class="sobre">The perfect soundtrack to those long nights over...</p>
+                        </a>
+                    </div>
+                    <div class="music">
+                        <a href="#">
+                            <img src="album2.png" alt="album2">
+                            <h4>Dinner Jazz</h4>
+                            <p class="sobre">The gentle sound of some of the greatest voice and...</p>
+                        </a>
+                    </div>
+                    <div class="music">
+                        <a href="#">
+                            <img src="album3.png" alt="album3">
+                            <h4>Dinner Lounge</h4>
+                            <p class="sobre">Soft eletronic music for your dinner.</p>
+                        </a>
+                    </div>
+                    <div class="music">
+                        <a href="#">
+                            <img src="album4.png" alt="album4">
+                            <h4>Feel Good Dinner</h4>
+                            <p class="sobre">An uplifting yet tasteful dinner playlist with a...</p>
+                        </a>
+                    </div>
+                </main>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
